@@ -21,25 +21,45 @@ body {
 h1 {
   font-family: "Lobster", sans-serif;
   font-size: xx-large;
-  padding: auto;
+  margin: 20px;
 
+}
+
+p {
+  margin: 20px;
 }
 
 
 
 .article {
-  width: 40vw;
-  height: 95vh;
+  width: 250px;
+  height: 750px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-
 }
 
 img {
   display: flex;
   width: 100%;
   height: 100%;
+}
+
+.pravidla {
+  width: 250px;
+  height: 50px;
+  background: #1fcca4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hrat {
+  width: 250px;
+  height: 50px;
+  background: #0197f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
