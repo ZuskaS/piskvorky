@@ -32,7 +32,7 @@ p {
 
 
 .article {
-  width: 250px;
+  width: 300px;
   height: 750px;
   display: flex;
   flex-direction: column;
@@ -47,7 +47,7 @@ img {
 }
 
 .Pravidla {
-  width: 250px;
+  width: 300px;
   height: 50px;
   background: #1fcca4;
   display: flex;
@@ -55,12 +55,11 @@ img {
   justify-content: center;
   color: white;
   border: 0cap;
+
 }
 
-
-
 .hrat {
-  width: 250px;
+  width: 300px;
   height: 50px;
   background: #0197f6;
   display: flex;
@@ -68,10 +67,18 @@ img {
   justify-content: center;
   color: white;
   border: 0cap;
+  border-top: 2px solid black;
 }
 
 a {
   color: white;
   text-decoration: none;
+}
 
+.hrat:hover {
+  background-color: #0090e9;
+}
+
+.Pravidla:hover {
+  background-color: #1cbb96;
 }
