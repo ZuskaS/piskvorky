@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+
+
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #615dad, #ffc8da);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+  max-width: 80vmin;
+  margin: 60px;
+  text-align: center;
+
+}
+
+.sekce {
+  justify-content: center;
+  align-items: center;
+}
+
+
+h1 {
+  font-family: "Lobster", sans-serif;
+  font-size: 70px;
+  font-weight: lighter;
+  color: white;
+  /*text-align: center;*/
+
+
+}
+
+.navigace {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.rightSide {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.kolecko {
+  border-radius: 50%;
+  border-color: white;
+  width: 0.5rem;
+}
+
+a {
+  color: white;
+
+}
+
+.home {
+  background-color: #90ee90;
+  border: none;
+}
+
+.home:hover {
+  background-color: rgb(116, 218, 116);
+}
+
+.restart {
+  background-color: #7cc0ea;
+  border: none;
+}
+
+.restart:hover {
+  background-color: rgb(72, 188, 214);
+}
+
+tr {
+  border: 1px solid black;
+}
+
+td {
+  border: 2px solid black;
+  width: 60px;
+  height: 60px;
+
+}
+
+table {
+  border-collapse: collapse;
+}
