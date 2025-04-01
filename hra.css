@@ -1,7 +1,5 @@
 * {
   box-sizing: border-box;
-
-
 }
 
 body {
@@ -13,6 +11,7 @@ body {
   height: 100vh;
   max-width: 80vmin;
   margin: 60px;
+  margin-top: 5px;
   text-align: center;
 
 }
@@ -20,17 +19,16 @@ body {
 .sekce {
   justify-content: center;
   align-items: center;
+
+  max-width: 80vmin;
 }
 
 
 h1 {
   font-family: "Lobster", sans-serif;
-  font-size: 70px;
+  font-size: 40px;
   font-weight: lighter;
   color: white;
-  /*text-align: center;*/
-
-
 }
 
 .navigace {
@@ -38,16 +36,13 @@ h1 {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
-
 }
 
 p {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 20px;
-
+  font-size: 15px;
 }
 
 .rightSide {
@@ -67,17 +62,24 @@ p {
 .kolecko {
   border-radius: 50%;
   border-color: white;
-  width: 0.5rem;
+  width: 15%;
+  margin-left: 5px;
 }
 
 a {
   color: white;
+}
 
+img {
+  width: 70%;
 }
 
 .home {
   background-color: #90ee90;
   border: none;
+  margin: 4px;
+  border-radius: 5px;
+  height: 40px;
 }
 
 .home:hover {
@@ -87,6 +89,9 @@ a {
 .restart {
   background-color: #7cc0ea;
   border: none;
+  margin: 4px;
+  border-radius: 5px;
+  height: 40px;
 }
 
 .restart:hover {
@@ -94,16 +99,24 @@ a {
 }
 
 tr {
-  border: 1px solid black;
+  border: 2px solid black;
 }
 
 td {
   border: 2px solid black;
-  width: 60px;
-  height: 60px;
-
+  width: 50px;
+  height: 50px;
+  background-color: rgb(194, 174, 211)
 }
 
 table {
   border-collapse: collapse;
+
+
+}
+
+
+.tabulka {
+  margin: 10px;
+
 }
