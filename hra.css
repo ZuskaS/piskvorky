@@ -3,23 +3,20 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
   background: linear-gradient(to bottom, #615dad, #ffc8da);
   background-attachment: fixed;
   background-repeat: no-repeat;
   height: 100vh;
-  max-width: 80vmin;
-  margin: 60px;
-  margin-top: 5px;
-  text-align: center;
+  margin: 0;
 
 }
 
 .sekce {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  margin: auto;
   max-width: 80vmin;
 }
 
@@ -99,11 +96,11 @@ img {
 }
 
 tr {
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 td {
-  border: 2px solid black;
+  border: 1px solid black;
   width: 50px;
   height: 50px;
   background-color: rgb(194, 174, 211)
@@ -115,6 +112,13 @@ table {
 
 }
 
+/*.navigaceAtabulka {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: normal;
+}
+*/
 
 .tabulka {
   margin: 10px;
