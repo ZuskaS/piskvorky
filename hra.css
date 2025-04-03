@@ -26,7 +26,8 @@ h1 {
   font-size: 40px;
   font-weight: lighter;
   color: white;
-  margin: 0;
+  margin: 0px;
+  padding-top: 20px;
 }
 
 nav {
@@ -81,7 +82,8 @@ img {
   height: 40px;
 }
 
-.home:hover {
+.home:hover,
+.home:focus {
   background-color: rgb(116, 218, 116);
 }
 
@@ -93,31 +95,36 @@ img {
   height: 40px;
 }
 
-.restart:hover {
+.restart:hover,
+.restart:focus {
   background-color: rgb(72, 188, 214);
 }
 
-tr {
+.policko {
   border: 1px solid black;
-}
-
-td {
-  border: 1px solid black;
-  width: 10%;
-  height: 10%;
-  background-color: rgb(194, 174, 211)
-}
-
-table {
-  border-collapse: collapse;
   width: 100%;
-  height: 100%
+  height: 100%;
+  background-color: rgb(194, 174, 211);
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+
+.policko :hover,
+.policko :focus {
+  background-color: rgb(190, 187, 187);
+  /*cursor: pointer;*/
 }
 
 
 .tabulka {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
   width: 80vmin;
   height: 80vmin;
-  margin: 5px;
+  border: 1px solid black;
+  gap: 0;
 
 }
