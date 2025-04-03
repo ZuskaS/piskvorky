@@ -105,11 +105,15 @@ a {
   text-decoration: none;
 }
 
-.hrat:hover {
+.hrat:hover,
+.hrat:focus {
   background-color: #0090e9;
+  cursor: pointer;
 }
 
 
-.Pravidla:hover {
+.Pravidla:hover,
+.Pravidla:focus {
   background-color: #1cbb96;
+  cursor: pointer;
 }

@@ -85,6 +85,7 @@ img {
 .home:hover,
 .home:focus {
   background-color: rgb(116, 218, 116);
+  cursor: pointer;
 }
 
 .restart {
@@ -98,6 +99,7 @@ img {
 .restart:hover,
 .restart:focus {
   background-color: rgb(72, 188, 214);
+  cursor: pointer;
 }
 
 .policko {
@@ -114,7 +116,7 @@ img {
 .policko:hover,
 .policko:focus {
   background-color: rgb(190, 187, 187);
-  /*cursor: pointer;*/
+  cursor: pointer;
 }
 
 
