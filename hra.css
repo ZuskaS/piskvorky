@@ -111,8 +111,8 @@ img {
 }
 
 
-.policko :hover,
-.policko :focus {
+.policko:hover,
+.policko:focus {
   background-color: rgb(190, 187, 187);
   /*cursor: pointer;*/
 }
