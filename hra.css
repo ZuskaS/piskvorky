@@ -130,3 +130,17 @@ img {
   gap: 0;
 
 }
+
+.board__field--circle {
+  background-image: url('./podklady/circle\ \(1\).svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+}
+
+.board__field--cross {
+  background-image: url('./podklady/cross.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+}
