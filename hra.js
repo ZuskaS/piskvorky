@@ -1,4 +1,3 @@
-console.log('JS je připojený');
 let currentPlayer = 'circle';
 const boardFields = document.querySelectorAll('.tabulka .policko');
 const imgCurrentPlayer = document.querySelector('.leftSide img');
