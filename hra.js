@@ -29,13 +29,10 @@ boardFields.forEach((policko) => {
     const winner = findWinner(playBoard);
 
     if (winner === 'x' || winner === 'o') {
-      alert(`Vyhrál hráč se symbolem ${winner}.`);
-      window.location.reload();
-    }
-
-    if (winner === 'tie') {
-      alert(`Hra skončila remízou.`);
-      window.location.reload();
+      setTimeout(() => {
+        alert(`Vyhrál hráč se symbolem ${winner}.`);
+        window.location.reload();
+      }, 300);
     }
   });
 });
