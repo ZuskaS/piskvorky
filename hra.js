@@ -1,3 +1,5 @@
+import { findWinner } from 'https://unpkg.com/piskvorky@0.1.4';
+
 let currentPlayer = 'circle';
 const boardFields = document.querySelectorAll('.tabulka .policko');
 const imgCurrentPlayer = document.querySelector('.leftSide img');
