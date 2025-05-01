@@ -34,5 +34,10 @@ boardFields.forEach((policko) => {
         window.location.reload();
       }, 300);
     }
+
+    if (winner === 'tie') {
+      alert(`Hra skončila nerozhodně.`);
+      window.location.reload();
+    }
   });
 });
