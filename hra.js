@@ -19,5 +19,23 @@ boardFields.forEach((policko) => {
     } else {
       imgCurrentPlayer.src = 'public/cross.svg';
     }
+
+    const playBoard = Array.from(boardFields).map((policko) => {
+      if (policko.classList.contains('board__field--cross')) return 'x';
+      if (policko.classList.contains('board__field--circle')) return 'o';
+      return '_';
+    });
+
+    const winner = findWinner(playBoard);
+
+    if (winner === 'x' || winner === 'o') {
+      alert(`Vyhrál hráč se symbolem ${winner}.`);
+      window.location.reload();
+    }
+
+    if (winner === 'tie') {
+      alert(`Hra skončila remízou.`);
+      window.location.reload();
+    }
   });
 });
