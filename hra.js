@@ -19,7 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
       return '_';
     });
   };
-  console.log(getPlayBoard());
 
   //zjišťění, zda někdo vyhrál a kdo, nebo je remíza
   const checkGameState = () => {
@@ -58,12 +57,9 @@ document.addEventListener('DOMContentLoaded', () => {
       },
     );
     const data = await response.json();
-    console.log('Data z API:', data);
     const { x, y } = data.position;
     const index = x + y * 10;
-    console.log('Spočtený index:', index);
     const targetField = boardFields[index]; // Najde políčko
-    console.log('Počet políček:', boardFields.length);
 
     if (!targetField) {
       console.error('Neexistující políčko na indexu:', index, data);
@@ -88,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
       imgCurrentPlayer.src =
         currentPlayer === 'circle' ? 'public/circle.svg' : 'public/cross.svg';
       if (!checkGameState() && currentPlayer === 'cross') {
-        setTimeout(aiMove, 500);
+        setTimeout(aiMove, 5000);
       }
     });
   });
